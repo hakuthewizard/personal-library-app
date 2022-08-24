@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>My Library</header>
+    <form id="app">
+        <label for="title">Title</label>
+        <input id="title" type="text" value="" placeholder="Enter the title...">
+        <label for="author">Author</label>
+        <input id="author" type="text" placeholder="Enter the author...">
+        <label for="year">Publication year</label>
+        <input id="year" type="number" placeholder="Enter the publication year...">
+    <div id="buttons">
+            <button id="addBook">Add Book</button>
+            <button id="clearList">Clear List</button>
+        </div>
+    </form>
+    <h2>My Books</h2>
+    <div id="listContainer">
+        <div class="top">
+        <span>Title</span>
+        <span>Author</span>
+        <span>Year</span>
+        <span>Remove Book</span>
+        
+    </div>
+    <div class="line"></div>
+        <ul id="newBooks">
+            
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
